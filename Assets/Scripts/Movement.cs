@@ -50,6 +50,11 @@ public class Movement : MonoBehaviour
             moveDirection.y = movementDirectionY;
         }
 
+        if (!characterController.isGrounded)
+        {
+            moveDirection.y -= gravity * Time.deltaTime;
+        }
+
 
     }
 
