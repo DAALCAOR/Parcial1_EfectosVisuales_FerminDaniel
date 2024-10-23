@@ -38,10 +38,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _MaskActivation: 0
-    - _MaskFuzziness: 1
-    - _MaskRange: 1
-    - _Saturation: 1
+    - _MaskFuzziness: 7.16
+    - _MaskRange: 10
+    - _Saturation: 0
     m_Colors:
-    - _MaskColor: {r: 0, g: 0.00002193451, b: 1, a: 0}
-    - _TintColor: {r: 0.1578013, g: 0.6698113, b: 0.05371129, a: 0}
+    - _MaskColor: {r: 1, g: 0.094339624, b: 0, a: 0}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

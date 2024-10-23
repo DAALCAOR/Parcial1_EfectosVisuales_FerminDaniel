@@ -37,9 +37,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BorderBlur: 0.625
-    - _CenterRadius: 0.75
-    - _CenterScale: 2.5
-    - _OuterScale: 1
+    - _BorderBlur: 0.306
+    - _CenterRadius: 0.78
+    - _CenterScale: 1
+    - _OuterScale: 2.91
     m_Colors: []
   m_BuildTextureStacks: []
