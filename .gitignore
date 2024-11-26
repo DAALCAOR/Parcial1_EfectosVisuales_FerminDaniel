@@ -88,3 +88,6 @@ Assets/Scenes/SampleScene.unity
 //*.meta
 *.png
 //*.meta
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
+ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+ProjectSettings/ShaderGraphSettings.asset
