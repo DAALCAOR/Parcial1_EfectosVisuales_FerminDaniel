@@ -14,7 +14,7 @@ public class Video_Camera_Controller : MonoBehaviour
         if(!Instance)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject);  
         }
         else
         {
