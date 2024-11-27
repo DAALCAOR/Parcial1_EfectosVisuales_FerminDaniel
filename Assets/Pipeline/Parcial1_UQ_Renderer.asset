@@ -27,13 +27,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
-  m_Name: Vignette
+  m_Name: PixelDistortion
   m_EditorClassIdentifier: 
   m_Active: 0
   passMaterial: {fileID: 2100000, guid: b291f98272d726649b09f9e6d963a69d, type: 2}
   injectionPoint: 600
   requirements: 4
   passIndex: 0
+--- !u!114 &-2413163654997024791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1927d4cac1abf46a991fe7192708f2, type: 3}
+  m_Name: RetroBlit
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    Event: 500
+    blitMaterial: {fileID: 2100000, guid: 4a7368ead06ea654280adf882daa48af, type: 2}
+    blitMaterialPassIndex: 0
+    setInverseViewMatrix: 0
+    requireDepthNormals: 0
+    srcType: 0
+    srcTextureId: _CameraColorTexture
+    srcTextureObject: {fileID: 0}
+    dstType: 0
+    dstTextureId: _BlitPassTexture
+    dstTextureObject: {fileID: 0}
+    overrideGraphicsFormat: 0
+    graphicsFormat: 8
+    canShowInSceneView: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,7 +81,9 @@ MonoBehaviour:
   - {fileID: 5795923643699632060}
   - {fileID: -7559301044344407884}
   - {fileID: -7194465471106607457}
-  m_RendererFeatureMap: bc170188d8416f50b4b89c45c0f717979f96e09dc51f289c
+  - {fileID: 6153821267631957479}
+  - {fileID: -2413163654997024791}
+  m_RendererFeatureMap: bc170188d8416f50b4b89c45c0f717979f96e09dc51f289ce76572acd6c36655e9df04f770b882de
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -106,6 +136,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 0
   passMaterial: {fileID: 2100000, guid: fe443666fe0e6db43ad59b708cf9193a, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
+--- !u!114 &6153821267631957479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  passMaterial: {fileID: 2100000, guid: 6b3b0ef2e5d3e7f4ca22d34735630c18, type: 2}
   injectionPoint: 600
   requirements: 4
   passIndex: 0

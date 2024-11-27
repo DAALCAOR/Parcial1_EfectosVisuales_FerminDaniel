@@ -5,7 +5,11 @@
     "m_Properties": [],
     "m_Keywords": [],
     "m_Dropdowns": [],
-    "m_CategoryData": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "86046ac1ce954bbabeb103d92f904d9d"
+        }
+    ],
     "m_Nodes": [
         {
             "m_Id": "46c48956a52541309e6612d7ef0b3297"
@@ -217,6 +221,14 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Normal"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "86046ac1ce954bbabeb103d92f904d9d",
+    "m_Name": "",
+    "m_ChildObjectList": []
 }
 
 {

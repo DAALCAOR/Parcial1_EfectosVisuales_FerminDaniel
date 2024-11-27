@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PP_Vignette
-  m_Shader: {fileID: -6465566751694194690, guid: ed5cc53b447ce7c4392a9568cb6186f7, type: 3}
+  m_Name: PP_PixelDistortion
+  m_Shader: {fileID: -6465566751694194690, guid: 902f96d90ef7d324bb5d4b352dd38dd6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -37,7 +37,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Frecuencia: 10
-    - _Intensity: 25
-    m_Colors: []
+    - _DistIntensity: 0.0203
+    - _VignetteBlur: 0
+    - _VignetteScale: 0
+    m_Colors:
+    - _DistOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _VignetteColor: {r: 0, g: 0, b: 0, a: 0.078431375}
   m_BuildTextureStacks: []
