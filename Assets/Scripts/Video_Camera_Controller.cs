@@ -75,11 +75,11 @@ public class Video_Camera_Controller : MonoBehaviour
         _vignettePP.SetFloat("_VignetteBlur", _vignetteBlur);
     }
 
-    //public void ToogleOn()
-    //{
-    //    if (Input.GetKeyDown(KeyCode.Space))
-    //    {
-    //        spacePressed = !spacePressed;
-    //    }
-    //}
+    public void ToogleOn()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            spacePressed = !spacePressed;
+        }
+    }
 }

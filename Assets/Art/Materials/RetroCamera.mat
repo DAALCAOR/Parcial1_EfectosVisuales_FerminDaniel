@@ -51,10 +51,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _BlinkFrecuence: 30
+    - _NoiseAmount: 0.02
+    - _NoiseScale: 100
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SLAmount: 0.02
     - _SLSpeed: 1
     - _ScanningLines: 7
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 0.6492908, g: 1, b: 0.57, a: 1}
+    - _NoiseSpeed: {r: 0, g: 0.05, b: 0, a: 0}
   m_BuildTextureStacks: []
