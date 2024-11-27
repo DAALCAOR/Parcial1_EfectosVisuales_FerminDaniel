@@ -34,6 +34,23 @@ MonoBehaviour:
   injectionPoint: 600
   requirements: 4
   passIndex: 0
+--- !u!114 &-6463336579049593798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: NightVision
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  passMaterial: {fileID: 2100000, guid: e1938b262fc1e4c4d8548439dcfcf9ba, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
 --- !u!114 &-2413163654997024791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,7 +100,9 @@ MonoBehaviour:
   - {fileID: -7194465471106607457}
   - {fileID: 6153821267631957479}
   - {fileID: -2413163654997024791}
-  m_RendererFeatureMap: bc170188d8416f50b4b89c45c0f717979f96e09dc51f289ce76572acd6c36655e9df04f770b882de
+  - {fileID: -6463336579049593798}
+  - {fileID: 3470803475986329532}
+  m_RendererFeatureMap: bc170188d8416f50b4b89c45c0f717979f96e09dc51f289ce76572acd6c36655e9df04f770b882de3ae4f525a09d4da6bc2f5b4f5fc52a30
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -122,6 +141,34 @@ MonoBehaviour:
   m_CopyDepthMode: 1
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
+--- !u!114 &3470803475986329532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1927d4cac1abf46a991fe7192708f2, type: 3}
+  m_Name: NightVisionBlit
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    Event: 300
+    blitMaterial: {fileID: 0}
+    blitMaterialPassIndex: 0
+    setInverseViewMatrix: 0
+    requireDepthNormals: 0
+    srcType: 0
+    srcTextureId: _CameraColorTexture
+    srcTextureObject: {fileID: 0}
+    dstType: 0
+    dstTextureId: _BlitPassTexture
+    dstTextureObject: {fileID: 0}
+    overrideGraphicsFormat: 0
+    graphicsFormat: 8
+    canShowInSceneView: 1
 --- !u!114 &5795923643699632060
 MonoBehaviour:
   m_ObjectHideFlags: 0
