@@ -55,17 +55,17 @@ Material:
     m_Ints: []
     m_Floats:
     - _DistIntensity: 0.015
-    - _Distance: 5.53
-    - _Falloff: 0.36
+    - _Distance: 4.49
+    - _Falloff: 0.16
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Transparency: 0.707
+    - _Transparency: 0.541
     m_Colors:
     - _Depth_Color: {r: 0.016153438, g: 0.018144783, b: 0.103773594, a: 0}
     - _DistOffset: {r: -0.09, g: -0.06, b: 0, a: 0}
     - _DistTiling: {r: 600, g: 1000, b: 0, a: 0}
     - _FoamColor: {r: 0.8152813, g: 0.8250829, b: 0.8773585, a: 1}
-    - _Offset: {r: -0.01, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0.05, g: -0.01, b: 0, a: 0}
     - _Tiling: {r: 101.2, g: 31.7, b: 0, a: 0}
     - _WaveColor: {r: 0.2179601, g: 0.3381104, b: 0.5849056, a: 0}
   m_BuildTextureStacks: []
